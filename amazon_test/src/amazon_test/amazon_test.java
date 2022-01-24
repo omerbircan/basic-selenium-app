@@ -63,7 +63,7 @@ public class amazon_test {
 		Assert.assertEquals(alert, "Şifreniz yanlış");
 		
 		Thread.sleep(1000);
-		driver.findElement(By.id("ap_password")).sendKeys("12345678");
+		driver.findElement(By.id("ap_password")).sendKeys("********");
 		driver.findElement(By.id("signInSubmit")).click();
 		driver.findElement(By.id("nav-link-accountList")).click();
 		alert = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/h1[1]")).getText();
