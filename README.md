@@ -1,1 +1,1 @@
-# basic-selenium-app
+# Test automation with selenium
