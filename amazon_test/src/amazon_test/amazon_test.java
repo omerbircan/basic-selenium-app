@@ -54,9 +54,9 @@ public class amazon_test {
 		
 		Thread.sleep(1000);
 		driver.findElement(By.id("ap_email")).clear();
-		driver.findElement(By.id("ap_email")).sendKeys("5075741334");
+		driver.findElement(By.id("ap_email")).sendKeys("******");
 		driver.findElement(By.id("continue")).click();
-		driver.findElement(By.id("ap_password")).sendKeys("1234");
+		driver.findElement(By.id("ap_password")).sendKeys("****");
 		driver.findElement(By.id("signInSubmit")).click();
 		alert = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div["
 				+ "1]/div[1]/div[1]/ul[1]/li[1]/span[1]")).getText();
